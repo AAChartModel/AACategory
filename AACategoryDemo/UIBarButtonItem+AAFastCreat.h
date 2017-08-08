@@ -17,7 +17,7 @@
  @param handler 按钮事件
  @return 创建的导航栏按钮
  */
-+ (UIBarButtonItem *)navBarRightBtnWithTitle:(NSString *)title
++ (UIBarButtonItem *)aa_navBarRightBtnWithTitle:(NSString *)title
                               navigationItem:(UINavigationItem *)navigationItem
                              addEventHandler:(void(^)(id sender))handler;
 
@@ -29,7 +29,7 @@
  @param handler 按钮事件
  @return 创建的导航栏按钮
  */
-+ (UIBarButtonItem *)navBarRightBtnWithImage:(UIImage *)image
++ (UIBarButtonItem *)aa_navBarRightBtnWithImage:(UIImage *)image
                               navigationItem:(UINavigationItem *)navigationItem
                              addEventHandler:(void(^)(id sender))handler;
 @end

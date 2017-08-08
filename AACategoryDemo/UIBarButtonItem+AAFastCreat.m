@@ -10,13 +10,13 @@
 #define AABtnTittleFont 13
 @implementation UIBarButtonItem (AAFastCreat)
 
-+ (UIBarButtonItem *)navBarRightBtnWithTitle:(NSString *)title
++ (UIBarButtonItem *)aa_navBarRightBtnWithTitle:(NSString *)title
                               navigationItem:(UINavigationItem *)navigationItem
                              addEventHandler:(void(^)(id sender))handler {
     return [self configureNavBarRightBtnWithTitle:title image:nil navigationItem:navigationItem addEventHandler:handler];
 }
 
-+ (UIBarButtonItem *)navBarRightBtnWithImage:(UIImage *)image
++ (UIBarButtonItem *)aa_navBarRightBtnWithImage:(UIImage *)image
                               navigationItem:(UINavigationItem *)navigationItem
                              addEventHandler:(void(^)(id sender))handler {
     return [self configureNavBarRightBtnWithTitle:nil image:image navigationItem:navigationItem addEventHandler:handler];
